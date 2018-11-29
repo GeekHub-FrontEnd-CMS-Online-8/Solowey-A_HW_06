@@ -1,0 +1,46 @@
+.skill
+  padding-top: 120px
+  padding-bottom: 125px
+  display: flex
+  flex-direction: column
+  align-items: center
+  h2
+    font-size: 46px
+    font-weight: 700
+    color: #4d4d4d
+    opacity: 0.6
+    &::before
+      content: ''
+      border-top: solid #4d4d4d
+      opacity: 0.6
+      width: 60px
+      height: 4px
+      display: block
+      margin: 0 auto
+  .skillContainer
+    max-width: 1000px
+    display: flex
+    flex-direction: column
+    margin: 0 auto
+      top: 60px
+    width: 1170px
+    canvas
+      margin: 0 auto
+      padding: 0
+    ul
+      width: 95%
+      align-self: flex-end
+      display: flex
+      flex-direction: row
+      justify-content: space-around
+      align-items: flex-end
+      li
+        img
+          border-radius: 40px
+          width: 40px
+          height: 40px
+          cursor: pointer
+          transition: 0.5s
+          &:hover
+            box-shadow: 3px 2px 5px 5px #fafafa
+            transform: scale(1.25, 1.25)
